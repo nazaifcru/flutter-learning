@@ -46,6 +46,9 @@ class MyHomePage extends StatelessWidget {
               ),
               subtitle: Text("Flutter Developer"),
               trailing: Icon(Icons.edit),
+              onTap: () {
+                Navigator.pop(context);
+              },
             )
           ],
         ),
